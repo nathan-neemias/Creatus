@@ -1,0 +1,90 @@
+/* UserList.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo cinza claro para toda a tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Faz com que o fundo ocupe toda a altura da tela */
+  }
+  
+  .user-list-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 1178px;
+    height: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens da header ao longo do eixo principal */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .btn-cadastro {
+    width: 150px; /* Diminuído o tamanho do botão */
+    height: 35px; /* Ajustado a altura do botão */
+    background-color: #065D2F;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px; /* Ajustado o tamanho da fonte */
+  }
+  
+  .btn-cadastro:hover {
+    background-color: #054e27;
+  }
+  
+  .user-content {
+    flex: 1; 
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 12px; 
+  }
+  
+  .user-table th {
+    background-color: #f8f9fa;
+    font-size: 12px; /* Diminuir o tamanho da fonte */
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  
+  .user-item button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-editar i {
+    color: #007bff;
+  }
+  
+  .btn-excluir i {
+    color: #dc3545;
+  }
+  
